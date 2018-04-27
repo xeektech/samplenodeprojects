@@ -1,0 +1,27 @@
+{
+  "name": "expressmysqlapi",
+  "version": "0.0.1",
+  "description": "its a sample api developed in express that helps in the demonstration of CRUD functionality being carried out inside mysql via the express interface",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "samplenodeprojects"
+  },
+  "keywords": [
+    "api",
+    "mysql",
+    "crud",
+    "express",
+    "node"
+  ],
+  "author": "Sam Khan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mysql": "^2.12.0"
+  }
+}

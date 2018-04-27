@@ -1,0 +1,24 @@
+{
+  "name": "edix12parser",
+  "version": "0.0.1",
+  "description": "A simple EDI X12 parser that transforms the data in ANSI X12 format into JSON",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeektech/samplenodeprojects.git"
+  },
+  "keywords": [
+    "X12",
+    "Parser",
+    "node.js"
+  ],
+  "author": "Sam Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xeektech/samplenodeprojects/issues"
+  },
+  "homepage": "https://github.com/xeektech/samplenodeprojects#readme"
+}
