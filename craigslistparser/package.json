@@ -1,0 +1,32 @@
+{
+  "name": "craigslistparser",
+  "version": "0.0.1",
+  "description": "this application parses craigslist search results using casperjs + phantomjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/casperjs main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeektech/samplenodeprojects.git"
+  },
+  "keywords": [
+    "craigslist",
+    "selenium",
+    "webdriver",
+    "firefox",
+    "parser",
+    "gecko"
+  ],
+  "author": "Sam Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xeektech/samplenodeprojects/issues"
+  },
+  "homepage": "https://github.com/xeektech/samplenodeprojects#readme",
+  "dependencies": {
+    "exceljs": "^1.1.1",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
