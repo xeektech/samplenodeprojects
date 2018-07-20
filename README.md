@@ -28,3 +28,14 @@ edix12parser
   - The express routes are available in: ./services/routes/routes.js
   - DB connection details and the api port are configurable in : /services/config/<ENV>.js
   - Sample postman requests collection can be found at: ./resources/expressmysqlapi_requests.postman_collection
+
+
+  dropboxfileuploader
+  - A simple client app developed in node.js
+  - It is used to upload files available in the given folder on the user's local file system to dropbox over it's REST API
+  - Supports both one shot uploads and chunked uploads
+
+  sfdcfilespuller
+  - Salesforce client 
+  - Uses force.js to connecte upto sfdc over the REST API
+  - Downloads files associated with the given user, on salesforce to a folder on the local file system

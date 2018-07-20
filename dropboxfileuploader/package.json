@@ -1,0 +1,29 @@
+{
+  "name": "dropboxfileuploader",
+  "version": "0.0.1",
+  "description": "Uploads files to dropbox",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeektech/samplenodeprojects.git"
+  },
+  "keywords": [
+    "dropbox",
+    "nodejs",
+    "upload",
+    "files"
+  ],
+  "author": "Sam Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xeektech/samplenodeprojects/issues"
+  },
+  "homepage": "https://github.com/xeektech/samplenodeprojects#readme",
+  "dependencies": {
+    "dropbox": "^4.0.5",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
