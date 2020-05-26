@@ -21,7 +21,7 @@ edix12parser
   - EDI delimiters can also be specified in the config file
   
  
- expressmysqlapi
+expressmysqlapi
   - A simple CRUD API build using express
   - Backend is MySQL
   - All the DB related helper methods are available in ./services/database/dal.js
@@ -30,12 +30,15 @@ edix12parser
   - Sample postman requests collection can be found at: ./resources/expressmysqlapi_requests.postman_collection
 
 
-  dropboxfileuploader
+dropboxfileuploader
   - A simple client app developed in node.js
   - It is used to upload files available in the given folder on the user's local file system to dropbox over it's REST API
   - Supports both one shot uploads and chunked uploads
 
-  sfdcfilespuller
+sfdcfilespuller
   - Salesforce client 
   - Uses force.js to connecte upto sfdc over the REST API
   - Downloads files associated with the given user, on salesforce to a folder on the local file system
+
+receiptscannerjs
+	- Sample app to scan the given receipt using tesseract.js
