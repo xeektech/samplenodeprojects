@@ -35,7 +35,10 @@ speechrecog.onend = ()=>{
 
 
 /*
-    This event handler is used to capture the positive speech recognition results.
+    This event handler is used to capture the positive speech recognition results. The 'speak' function at the end 
+    does the reverse of text-to-speech, i.e. it performs the rendition of the utterance of the given text and that is the 
+    speech-to-text function of the browser, essentially. Here I am asking the browser to speak back what has been spoken to it, 
+    meaning render the recoginzed text as speech/voice
 */
 
 speechrecog.onresult = (evt)=>{
@@ -45,12 +48,17 @@ speechrecog.onresult = (evt)=>{
     speak(txtarea.textContent)
 }
 
+/*
+    Starting the recognition with the click of the mic button. 
+*/
 micbtn.addEventListener('click', ()=>{
     txtarea.textContent = ''
     speechrecog.start()
 })
 
-
+/*
+    The speak function.
+*/
 const speak = (text) => {
     const speech = new SpeechSynthesisUtterance()
     speech.text = text
